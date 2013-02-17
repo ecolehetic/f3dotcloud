@@ -1,13 +1,18 @@
 #f3 - dotcloud boilerplate
 
-boilerplate for f3 MVC ready to deploy on dotcloud.
+boilerplate for f3 ready to deploy on dotcloud.
 
-Git clone this repo
+[Install dotcloud CLI and setup](http://docs.dotcloud.com/firststeps/install/)
 
-Edit dotcloud.yml then:
+Git clone this repo to yourapp/
 
-	cd myapp/
-	dotcloud create myapp
+Edit dotcloud.yml with your specific stack if necessary. (default : php/mysql)
+
+then:
+
+	cd yourapp/
+	dotcloud create yourapp
+	#connect dir to dotcloud by answering Y to prompt
 	dotcloud push
 
 
