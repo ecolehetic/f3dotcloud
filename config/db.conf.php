@@ -12,6 +12,6 @@ else{
   $f3->set('db_password',''); 
   $f3->set('db_host','localhost');
   $f3->set('db_port','3306');
-  $f3->set('db_server',''); 
+  $f3->set('db_server','myhotel'); 
 }
 ?>
